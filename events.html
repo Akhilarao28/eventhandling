@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="showtext()">showtext</button>
+    <p></p>
+    <h2 onmouseover="changefontsize()">HTML</h2>
+     <button onclick="changeopacity1()">submit</button>
+     <button ondblclick="changeopacity2()">submit</button>
+     <button onmouseover="changeopacity3()">submit</button>
+     <button onmouseup="changeopacity4()">submit</button>
+     <button onmousemove="changeopacity5()">submit</button>
+     <button onmouseleave="changeopacity6()">submit</button>
+     <button onmouseout="changeopacity7()">submit</button>
+     <button onclick="changeopacity8()">submit</button>
+     <button onmousedown="changeopacity9()">submit</button>
+     <button ondblclick="changeopacity10()">submit</button>
+     <img src="./nature.jpeg">
+    <script>
+        function showtext(){
+            let p_ele=document.getElementsByTagName("p")[0]
+            p_ele.innerText="hello world"
+            p_ele.style.color="red"
+            console.log(p_ele)
+        }
+        function changefontsize(){
+            let h2_ele=document.getElementsByTagName("h2")[0]
+            h2_ele.innerText="Hyper Text Markup Language"
+            h2_ele.style.color="blue"
+            h2_ele.style.fontSize="50px"
+        }
+        function changeopacity1(){
+            let img_ele=document.getElementsByTagName("img")[0]
+            img_ele.style.opacity="0.1"
+        }
+        function changeopacity2(){
+            let img_ele=document.getElementsByTagName("img")[0]
+            img_ele.style.opacity="0.2"
+
+        }
+        function changeopacity3(){
+            let img_ele=document.getElementsByTagName("img")[0]
+            img_ele.style.opacity="0.3"
+
+        }
+        function changeopacity4(){
+            let img_ele=document.getElementsByTagName("img")[0]
+            img_ele.style.opacity="0.4"
+
+        }
+        function changeopacity5(){
+            let img_ele=document.getElementsByTagName("img")[0]
+            img_ele.style.opacity="0.5"
+
+        }
+        function changeopacity6(){
+            let img_ele=document.getElementsByTagName("img")[0]
+            img_ele.style.opacity="0.6"
+
+        }
+        function changeopacity7(){
+            let img_ele=document.getElementsByTagName("img")[0]
+            img_ele.style.opacity="0.7"
+
+        }
+        function changeopacity8(){
+            let img_ele=document.getElementsByTagName("img")[0]
+            img_ele.style.opacity="0.8"
+
+        }
+        function changeopacity9(){
+            let img_ele=document.getElementsByTagName("img")[0]
+            img_ele.style.opacity="0.9"
+
+        }
+        function changeopacity10(){
+            let img_ele=document.getElementsByTagName("img")[0]
+            img_ele.style.opacity="1"
+
+        }
+    </script>
+
+    
+</body>
+</html>
